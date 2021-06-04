@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Contacto | Curso HTML5 desde cero</title>
+    <meta name="description"/>
+    <link rel="icon" href="img/favicon.png"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/ed-grid.min.css"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+  </head>
+  <body>
+    <header class="ed-container">
+      <div class="ed-item l-20"><a href="/"><img src="img/logo.png"/></a></div>
+      <div class="ed-item l-80">
+        <nav>
+          <ul class="ed-menu l-horizontal main-end">
+            <li><a href="/">inicio</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+            <li><a href="servicios.html">servicios</a></li>
+            <li><a href="clientes.html">clientes</a></li>
+            <li><a class="selected" href="contacto.html">contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="ed-container" id="banner">
+      <div class="ed-item"><img src="img/contacto.jpg" alt="contacto"/>
+      </div>
+    </div>
+    <div class="ed-container">
+      <main class="ed-item l-75">
+        <h1>Contacto</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure hic enim, voluptas cumque, officiis laudantium nesciunt? Quae, quibusdam. Nisi facilis quis quia dolores iure commodi aspernatur obcaecati aliquid mollitia eum?</p>
+        <form class="ed-container contacto" action="procesar.php">
+          <div class="ed-item l-30">
+            <label for="nombres">Nombres y apellidos</label>
+          </div>
+          <div class="ed-item l-70">
+            <input type="text" id="nombres" name="nombres"/>
+          </div>
+          <div class="ed-item l-30">
+            <label for="correo">Correo electrónico</label>
+          </div>
+          <div class="ed-item l-70">
+            <input type="email" id="correo" name="correo"/>
+          </div>
+          <div class="ed-item l-30">
+            <label for="mensaje">Escriba su mensaje</label>
+          </div>
+          <div class="ed-item l-70">
+            <textarea name="mensaje" cols="30" rows="10"></textarea>
+          </div>
+          <div class="ed-item">
+            <input type="submit"/>
+          </div>
+        </form>
+      </main>
+      <aside class="ed-item l-25">
+        <div class="aside-inner"></div>
+        <h2>Siguenos en Facebook</h2><a href="http://facebook.com/" target="_blank">Seguir</a>
+      </aside>
+    </div>
+    <footer>
+      <div class="ed-container">
+        <div class="ed-item">
+          <p>Proyecto del curso HTML5 Desde Cero</p>
+          <p>Octubre - noviembre - 2015</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

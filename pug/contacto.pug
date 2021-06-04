@@ -1,0 +1,26 @@
+extends template/template
+append config
+    -titulo = "Contacto"
+    -paginaActual = "contacto"
+
+block main
+    h1 Contacto
+    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure hic enim, voluptas cumque, officiis laudantium nesciunt? Quae, quibusdam. Nisi facilis quis quia dolores iure commodi aspernatur obcaecati aliquid mollitia eum?
+    form(action="procesar.php").ed-container.contacto
+        .ed-item.l-30
+            label(for="nombres") Nombres y apellidos
+        .ed-item.l-70
+            input(type="text" id="nombres" name="nombres")
+        .ed-item.l-30
+            label(for="correo") Correo electrónico
+        .ed-item.l-70
+            input(type="email" id="correo" name="correo")
+        .ed-item.l-30
+            label(for="mensaje") Escriba su mensaje
+        .ed-item.l-70
+            textarea(name="mensaje" cols="30", rows="10" id=mensaje)
+        .ed-item
+            input(type="submit")
+block aside
+    h2 Siguenos en Facebook
+    a(href="http://facebook.com/" target="_blank") Seguir
