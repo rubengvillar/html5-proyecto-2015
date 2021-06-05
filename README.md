@@ -11,4 +11,4 @@ Proyecto realizado gracias a [EDteam](https://ed.team) utilizando exclusivamente
 
 Deploy del proyecto [aquí](https://html5-proyecto-2015.vercel.app/)
 
-### Proyecto realizado por Ruben G. Villar
+### Proyecto realizado por: Ruben G. Villar
